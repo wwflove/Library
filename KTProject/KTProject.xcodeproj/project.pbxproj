@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		268FC5851C9C1C07006B7B2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 268FC5841C9C1C07006B7B2E /* main.m */; };
+		268FC5881C9C1C07006B7B2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 268FC5871C9C1C07006B7B2E /* AppDelegate.m */; };
+		268FC58A1C9C1C07006B7B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268FC5891C9C1C07006B7B2E /* Assets.xcassets */; };
+		268FC58D1C9C1C07006B7B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268FC58B1C9C1C07006B7B2E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		2616AA1F1C9D0040007031BE /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		268FC5801C9C1C07006B7B2E /* KTProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		268FC5841C9C1C07006B7B2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		268FC5861C9C1C07006B7B2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		268FC5871C9C1C07006B7B2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		268FC5891C9C1C07006B7B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		268FC58C1C9C1C07006B7B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		268FC58E1C9C1C07006B7B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		268FC57D1C9C1C07006B7B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		268FC5771C9C1C07006B7B2E = {
+			isa = PBXGroup;
+			children = (
+				268FC5821C9C1C07006B7B2E /* KTProject */,
+				268FC5811C9C1C07006B7B2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		268FC5811C9C1C07006B7B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				268FC5801C9C1C07006B7B2E /* KTProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		268FC5821C9C1C07006B7B2E /* KTProject */ = {
+			isa = PBXGroup;
+			children = (
+				268FC5861C9C1C07006B7B2E /* AppDelegate.h */,
+				268FC5871C9C1C07006B7B2E /* AppDelegate.m */,
+				268FC5891C9C1C07006B7B2E /* Assets.xcassets */,
+				268FC58B1C9C1C07006B7B2E /* LaunchScreen.storyboard */,
+				268FC58E1C9C1C07006B7B2E /* Info.plist */,
+				268FC5831C9C1C07006B7B2E /* Supporting Files */,
+			);
+			path = KTProject;
+			sourceTree = "<group>";
+		};
+		268FC5831C9C1C07006B7B2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				268FC5841C9C1C07006B7B2E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		268FC57F1C9C1C07006B7B2E /* KTProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268FC5911C9C1C07006B7B2E /* Build configuration list for PBXNativeTarget "KTProject" */;
+			buildPhases = (
+				268FC57C1C9C1C07006B7B2E /* Sources */,
+				268FC57D1C9C1C07006B7B2E /* Frameworks */,
+				268FC57E1C9C1C07006B7B2E /* Resources */,
+			);
+			buildRules = (
+				2616AA1F1C9D0040007031BE /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = KTProject;
+			productName = KTProject;
+			productReference = 268FC5801C9C1C07006B7B2E /* KTProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		268FC5781C9C1C07006B7B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = WantIsWast;
+				TargetAttributes = {
+					268FC57F1C9C1C07006B7B2E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = M8845BT5W3;
+					};
+				};
+			};
+			buildConfigurationList = 268FC57B1C9C1C07006B7B2E /* Build configuration list for PBXProject "KTProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 268FC5771C9C1C07006B7B2E;
+			productRefGroup = 268FC5811C9C1C07006B7B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				268FC57F1C9C1C07006B7B2E /* KTProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		268FC57E1C9C1C07006B7B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268FC58A1C9C1C07006B7B2E /* Assets.xcassets in Resources */,
+				268FC58D1C9C1C07006B7B2E /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		268FC57C1C9C1C07006B7B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268FC5881C9C1C07006B7B2E /* AppDelegate.m in Sources */,
+				268FC5851C9C1C07006B7B2E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		268FC58B1C9C1C07006B7B2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				268FC58C1C9C1C07006B7B2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		268FC58F1C9C1C07006B7B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		268FC5901C9C1C07006B7B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		268FC5921C9C1C07006B7B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KTProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hope.KTProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		268FC5931C9C1C07006B7B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KTProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hope.KTProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		268FC57B1C9C1C07006B7B2E /* Build configuration list for PBXProject "KTProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268FC58F1C9C1C07006B7B2E /* Debug */,
+				268FC5901C9C1C07006B7B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268FC5911C9C1C07006B7B2E /* Build configuration list for PBXNativeTarget "KTProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268FC5921C9C1C07006B7B2E /* Debug */,
+				268FC5931C9C1C07006B7B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 268FC5781C9C1C07006B7B2E /* Project object */;
+}
